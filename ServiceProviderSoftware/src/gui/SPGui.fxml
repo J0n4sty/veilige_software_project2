@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="458.0" prefWidth="517.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="SPController">
+   <children>
+      <SplitPane dividerPositions="0.29797979797979796" layoutY="-7.0" prefHeight="468.0" prefWidth="517.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ListView layoutX="-5.0" layoutY="-5.0" prefHeight="474.0" prefWidth="157.0" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="331.0" prefWidth="351.0">
+               <children>
+                  <SplitPane dividerPositions="0.5" layoutY="-6.0" orientation="VERTICAL" prefHeight="468.0" prefWidth="358.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <ListView prefHeight="229.0" prefWidth="356.0" />
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                           <children>
+                              <HBox layoutX="-11.0" prefHeight="229.0" prefWidth="369.0">
+                                 <children>
+                                    <ListView prefHeight="229.0" prefWidth="114.0" />
+                                    <TextArea prefHeight="229.0" prefWidth="177.0" />
+                                    <Button mnemonicParsing="false" prefHeight="94.0" prefWidth="100.0" text="Send Request" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
