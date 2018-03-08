@@ -32,5 +32,6 @@ hs_err_pid*
 *.cap
 *.jca
 Middleware/.classpath
+JavaCard/target/
 
 java_card_kit-2_2_2/
